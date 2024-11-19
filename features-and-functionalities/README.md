@@ -1,3 +1,3 @@
 ## Features and Functionalities Diagram
 
-![Features and Functionalities Diagram](./Features&functionalities.png)
+![Features and Functionalities Diagram](./features.png)
