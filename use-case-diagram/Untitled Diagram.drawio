@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="2Dk9fZ85thfRHGTJGBYj">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-1" value="Guest" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="135" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-2" value="Registered User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="44" y="410" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="43" y="265" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-8" value="Payment System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-9" value="User Registration&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-10" value="Payment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="575" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-11" value="Property Management" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="275" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-12" value="Booking System" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="180" as="sourcePoint" />
+            <mxPoint x="610" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="634" y="599" as="sourcePoint" />
+            <mxPoint x="624" y="439" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="104" y="459" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-19" value="Register, Login, Browse properties" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="205" y="143" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-23" value="Browse properties, Check &amp;amp; make booking" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="215" y="420" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-24" value="Make Payment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="515" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="315" as="sourcePoint" />
+            <mxPoint x="620" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-26" value="Add, Edit, Delete Property" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="196" y="288.25" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-29" value="Payment Processing, Generate Invoice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="590" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="625.5" as="sourcePoint" />
+            <mxPoint x="630" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ACTORS&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5QqTD0q18Mp3kMhOJyW-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;Use Case&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
