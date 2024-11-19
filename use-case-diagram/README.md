@@ -1,3 +1,3 @@
-## Features and Functionalities Diagram
+## Use case Diagram
 
-![Features and Functionalities Diagram](./Usecase.png)
+![Use case Diagram](./Usecase.png)
